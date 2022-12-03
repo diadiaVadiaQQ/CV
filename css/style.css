@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    height: 900px;
+    width: 100%;
+    background-image: url(/img/background_header.png);
+}
+
+header {
+    width: 100%;
+    height: 300px;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    position: relative;
+    left: 42.5%;
+}
+
+header p {
+    color:white;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.quote {
+    border: 1px solid white;
+    height: 50px;
+    width: 100%;
+    background: rgba(139, 139, 139, 0.267);
+}
+
+.quote p {
+    color: rgb(218, 218, 218);
+    padding: 1% 5%;
+    font-family: 'Anonymous Pro', monospace;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about_me {
+    border: 1px solid white;
+    display: block;
+    padding-top: 10px;
+    float: left;
+    height: 400px;
+    width: 33.3%;
+    background:#7c46fa4b;
+}
+
+.about_me li{
+    color: #fff;
+    font-family: 'Anonymous Pro', monospace;
+    padding:5% 3%;
+}
+
+.technology {
+    border: 1px solid white;
+    display: block;
+    padding-top: 10px;
+    float: left;
+    height: 400px;
+    width: 33.1%;
+    background: rgba(203, 80, 252, 0.295);
+}
+
+.technology li{
+    color: #fff;
+    list-style: inside circle;
+    font-family: 'Anonymous Pro', monospace;
+    padding: 3% 5%;
+    text-align: center;
+    
+}
+
+.contacts {
+    border: 1px solid white;
+    font-family: 'Anonymous Pro', monospace;
+    padding-top: 10px;
+    float: left;
+    height: 400px;
+    width: 33.1%;
+    background: #7c46fa4b;
+}
+
+.contacts li {
+    color: #fff;
+    list-style: inside circle;
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.about_me h2 {
+    padding-top: 20px;
+    color: #fff;
+    padding-bottom: 7%;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.technology h2 {
+    padding-top: 20px;
+    color: #fff;
+    padding-bottom: 7%;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+    font-weight: 300;
+}
+
+.contacts h2 {
+    padding-top: 20px;
+    color: #fff;
+    padding-bottom: 7%;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+    font-weight: 300;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background: rgba(223, 223, 223, 0.836);
+    border: 1px white;
+    border-radius: 20px;
+    position: relative;
+    top: 10%;
+    left: 35%;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid rgb(0, 255, 242);
+}
